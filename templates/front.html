@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <title>AGRO-MITRA</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>GRO <span>M</span>ITRA</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#contact" data-after="About">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero" style="background-image: url({{ url_for('static', filename='css/bg-1.jpg') }})">
+    <div class="hero container">
+      <div>
+        <h1>Plant, <span></span></h1>
+        <h1>Disease Detection<span></span></h1>
+        <h1>System<span></span></h1>
+        <a href="/index" type="button" class="cta">Click here</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Contact Section -->
+ <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">About <span>Us</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h2 style="font-size: 1.5rem">Covers</h2>
+            <h1>1</h1>
+            <h2>Major Crops</h2>
+            <h2 style="color: red; font-weight:600">20+ Major Crops Coming Soon</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h2 style="font-size: 1.5rem">Available in</h2>
+            <h1>1</h1>
+            <h2>Languages</h2>
+            <h2 style="color: red; font-weight:600">Hindi & Marathi Coming Soon</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/people.png" /></div>
+          <div class="contact-info">
+            <h2 style="font-size: 1.5rem">More Than</h2>
+            <h1>14</h1>
+            <h2>Users</h2>
+            <h2 style="color: red; font-weight:600">Still growing</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+ <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>hivam <span>P</span>anwar</h1>
+      </div>
+      <h2></h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 Shivam Panwar. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+</body>
+
+</html>
